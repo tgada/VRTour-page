@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <title>Grad Student</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<style>
+img.resize {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:25%;
+  max-height:25%;
+}
+</style>
+
+<body>
+   <!-- HeaderInfo/NavigationBar START-->
+	<div class="header">
+	<h1>The Page Memorial Chapel of Oswego, NY</h1>
+	</div>
+
+	<div id="navbar">
+		<a class="active" href="javascript:void(0)">Home</a>
+		<a href="javascript:void(0)">The Chapel</a>
+		<a href="javascript:void(0)">Gallery</a>
+		<a href="javascript:void(0)">VR Tour</a>
+		<a href="javascript:void(0)">Contact Us</a>
+	</div>
+
+<!-- JS for sticky function-->
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+	if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<!-- HeaderInfo/NavigationBar END-->
+    <div class="row" style="margin: 0;">
+        <div class=" col-md-12 parallax" style="margin: 0;">
+        </div>
+        <div class="col-md-12 p-5">
+            <p class="heading_to_breakdown">
+                VR Tour
+            </p>
+            <iframe width="100%" height="480px" src="https://poly.google.com/view/5anRVCg3Xe3/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ></iframe>
+            <br>
+             <p class="para">
+                In case the Google Tour does not load above this text, you can click on the link below to open the Google Tour manually.<br> <a href="https://poly.google.com/u/0/view/5anRVCg3Xe3">Visit our VR Tour</a> </p> 
+<br>
+            <table style="width:100%">
+  <tr>
+    <td>Instructions for using the VR Tour on this page: You can click and drag on any part of the image to move the image, so you can get a better view. You can click on the information icon (seen to the right) to get more information about this project and instructions. You can click on the images to get views of the interior and exterior of the chapel, as well as some information about those views and the history of the chapel itself. There are two of these images on the first page and five of them on the second page. You can navigate to the second page by clicking on the ">" icon on the bottom of the screen next to the text depicting what scene you are currently observing.</td>
+    <td><img class="resize" src="https://image.flaticon.com/icons/png/512/18/18623.png" alt="Information icon"></td>
+  </tr>
+  <tr>
+  <td><img class="resize" src="https://png.pngtree.com/png-vector/20190129/ourlarge/pngtree-full-screen-vector-icon-png-image_355926.jpg" alt="Full-screen icon"></td>
+    <td>Instructions for using the VR Tour using another page: You can click and drag on any part of the image to move the image, so you can get a better view. You can click on the information icon to get more information about this project and instructions. You can click on the images to get views of the interior and exterior of the chapel, as well as some information about those views and the history of the chapel itself. There are two of these images on the first page and five of them on the second page. You can navigate to the second page by clicking on the ">" icon on the bottom of the screen next to the text depicting what scene you are currently observing.You can also clikc on the fullscreen icon (seen to the left) in order to view the tour in fullscreen.</td>
+  </tr>
+  <tr>
+    <td>Instructions for using the VR Tour using your phone: You can tap and hold on any part of the image to move the image, so you can get a better view. You can also hold the phone in front of you as you turn, and the image will turn with you, as if you are actually at that location. You can click on the information icon to get more information about this project and instructions. You can click on the images to get views of the interior and exterior of the chapel, as well as some information about those views and the history of the chapel itself. There are two of these images on the first page and five of them on the second page. You can navigate to the second page by clicking on the ">" icon on the bottom of the screen next to the text depicting what scene you are currently observing.You can also clikc on the fullscreen icon in order to view the tour in fullscreen. You can also click on the settings icon (seen to the right) to turn off the 360 degree view, which is when the image moves as you move. Additionally, if you have access to a VR headset, you can access VR mode with the third icon in the top right corner.</td>
+    <td><img class="resize" src="https://icons-for-free.com/iconfiles/png/512/edit+gear+options+preferences+setting+settings+icon-1320166551296108865.png" alt="Settings icon"></td>
+  </tr>
+</table>
+           
+     
+</body>
+<footer>
+    <div id="footer_container">
+      <p class="footer_message">Connect with us on:
+      </p>
+      <ul class="social">
+          <li><a href="http://facebook.com">Facebook</a></li>
+          <li><a href="http://youtube.com">Youtube</a></li>
+          <li><a href="http://twitter.com">Twitter</a></li>
+      </ul>
+</footer>
+</html>
